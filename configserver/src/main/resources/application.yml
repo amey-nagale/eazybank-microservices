@@ -10,6 +10,9 @@ spring:
         native:
           search-locations: "classpath:/config"
           # search-locations: "file:///Users//eazybytes//Documents//config"
+          # search-locations: "classpath:/config"
+          # search-locations: "file:///Users//eazybytes//Documents//config"    
+        git:
     bus:
      enabled: false    
 
@@ -30,6 +33,6 @@ management:
 
 encrypt:
   key: "45D81EC1EF61DF9AD8D3E5BB397F9"
-
+     enabled: false 
 server:
   port: 8071
