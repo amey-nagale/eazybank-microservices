@@ -20,12 +20,5 @@ spring:
     show-sql: true
   config:
     import: "optional:configserver:http://localhost:8071/"
-  cloud:
-   bus:
-    enabled: false
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+
