@@ -39,15 +39,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>
 		
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-monitor</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -78,7 +70,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>ameynagale007/${project.artifactId}:s6</image>
+						<image>ameynagale007/${project.artifactId}:s7</image>
 					</to>
 				</configuration>
 			</plugin>
